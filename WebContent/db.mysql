@@ -1,0 +1,23 @@
+ CREATE TABLE  FEE_STUDENT
+      (ROLLNO int(20) primary key auto_increment,
+     NAME  VARCHAR(2000),
+     EMAIL  VARCHAR(2000),
+     SEX  VARCHAR(2000),
+     COURSE  VARCHAR(2000),
+    FEE  int,
+     PAID  int,
+     DUE  INT,
+     ADDRESS  VARCHAR(2000),
+     CONTACT  VARCHAR(2000)
+    
+        );
+
+
+ CREATE TABLE  FEE_ACCOUNTANT
+       (ID  INT primary key,
+     NAME  VARCHAR(20),
+     EMAIL VARCHAR(2000),
+     PASSWORD  VARCHAR(2000),
+     ADDRESS  VARCHAR(2000),
+     CONTACT  VARCHAR(2000)
+       );
